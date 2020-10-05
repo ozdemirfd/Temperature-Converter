@@ -7,7 +7,9 @@ console.log('it is working');
 let celsius= prompt("Enter celsius degree")*1;
 
 let kelvin=celsius+273.15;
+let fahrenheit=(celsius*9/5)+32;
+fahrenheit=fahrenheit.toFixed(2);
 //kelvin=Math.round(kelvin);
 kelvin=kelvin.toFixed(2);
-console.log(celsius +" Celsius degree equals to "+kelvin + " degree kelvin" )
+console.log(celsius +" Celsius degree equals to "+kelvin + " kelvin and " +  fahrenheit +" fahrenheit" )
 //alert(celsius +" Celsius degree equals to "+kelvin + " degree kelvin" );
