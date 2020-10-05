@@ -12,4 +12,4 @@ fahrenheit=fahrenheit.toFixed(2);
 //kelvin=Math.round(kelvin);
 kelvin=kelvin.toFixed(2);
 console.log(celsius +" Celsius degree equals to "+kelvin + " kelvin and " +  fahrenheit +" fahrenheit" )
-//alert(celsius +" Celsius degree equals to "+kelvin + " degree kelvin" );
+//alert(celsius +" Celsius degree equals to "+kelvin + " degree kelvin" +  fahrenheit +" fahrenheit" );
